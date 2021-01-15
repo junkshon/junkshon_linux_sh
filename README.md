@@ -2,10 +2,10 @@
  junkshon BASH shell script for system discovery Linux
 
 # This script should be run by the system admin, the script should be reviewed before the script is run.
-# tested with 
+# The script has been tested with : 
 
-## RedHat
-## CentOs
+- RedHat
+- CentOs
 
 # How to run 
 ## sudo ./junkshon_system_info.sh
