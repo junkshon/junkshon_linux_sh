@@ -12,4 +12,4 @@ This script should be run by the system admin, the script should be reviewed bef
 
 # Output
 
-## Creates an output file called sysinfo.csv in the current directory that you run the script from. 
+Creates an output file called sysinfo.csv in the current directory that you run the script from. 
