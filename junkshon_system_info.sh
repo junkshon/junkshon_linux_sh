@@ -31,19 +31,19 @@ ifconfig >> $out_file_path
 echo -e "\n\n====================================== ROUTE TABLE INFO ======================================\n" >> $out_file_path
 route -n >> $out_file_path
 
-echo -e "\n\n====================================== MOUNT POINT INFO ======================================\n" >> $out_file_path
+echo -e "\n\n====================================== MOUNT POINTs INFO ======================================\n" >> $out_file_path
 cat /etc/fstab|grep -v "#" >> $out_file_path
 
-echo -e "\n\n==================================== DISK PARTATION INFO =====================================\n" >> $out_file_path
+echo -e "\n\n==================================== DISK LAYOUT INFO =====================================\n" >> $out_file_path
 df -h >> $out_file_path
 
-echo -e "\n\n==================================== PHYSICAL VOLUME INFO ====================================\n" >> $out_file_path
+echo -e "\n\n==================================== PHYSICAL VOLUME GROUP INFO ====================================\n" >> $out_file_path
 pvs >> $out_file_path
 
 echo -e "\n\n===================================== VOLUME GROUP INFO ======================================\n" >> $out_file_path
 vgs >> $out_file_path
 
-echo -e "\n\n===================================== LOGICAL VOLUME INFO ====================================\n" >> $out_file_path
+echo -e "\n\n===================================== LOGICAL VOLUME GROUP ====================================\n" >> $out_file_path
 lvs >> $out_file_path
 
 echo -e "\n\n==================================== RUNNING SERVICE INFO ====================================\n" >> $out_file_path
