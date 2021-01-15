@@ -1,7 +1,7 @@
 # junkshon_linux_sh
- junkshon BASH shell script for system discovery Linux
+junkshon BASH shell script for system discovery Linux
 
-# This script should be run by the system admin, the script should be reviewed before the script is run.
+This script should be run by the system admin, the script should be reviewed before the script is run.
 # The script has been tested with : 
 
 - RedHat
